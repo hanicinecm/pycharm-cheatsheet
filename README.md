@@ -35,5 +35,12 @@
 * `Shift` + `F6` - **Refactor**
 * `Ctrl` + `Q` - **Documentation** of the object with cursor on
 * `Ctrl` + `P` - **Parameters** of any callable, if cursor inside constructor brackets
+* `Alt Gr` + `Tab` - **Go to Next Splitter** (this is custom binding)
+* `Ctrl` + `4` - **Close** whatever is open - file in editor, terminal, run window...
 
 ## Running Code
+* `Shift` + `F10` - **Re-runs** the active run configuration
+* `Ctrl` + `Shift` + `F10` - **Runs a temporary configuration** relevant to the current code file under focus
+  * Run all the tests when focused on tests directory
+  * Run all the tests in a file when focused on top of a file
+  * Run a single test when focused on it.
