@@ -26,7 +26,7 @@
 * `Shift` + `Ctrl` + `W` - **Reduce Selection** drills back down through the ladder of extended selections done by `Ctrl` + `W`
 * `Alt` + `Shift` + `Up/Down` - **Move Block** moves selected block up/down.
 * `Alt` + `Shift` + `L` - **Reformat Code**
-* `Alt` + `Shift` + `O` - **Optimise Imports**
+* `Alt` + `Ctrl` + `O` - **Optimise Imports**
 * `Alt` + `Enter` - **Show Intention Actions** for any genetorial work the IDE can do for me.
   * Auto-adding imports after typing a function/package
   * Automatically turning `__init__` arguments into instance attributes
