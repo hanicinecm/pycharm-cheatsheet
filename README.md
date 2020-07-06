@@ -32,6 +32,7 @@
   * Automatically turning `__init__` arguments into instance attributes
   * Correcting typos
   * Converting `from module import class` into `import package` and `module.class`
+* `Ctrl` + `Shift` + `T` - **Generate Test** this is super useful, if called from any method or function, it gives a dialogue to generate test function for it.
 * `Shift` + `F6` - **Refactor**
 * `Ctrl` + `Q` - **Documentation** of the object with cursor on
 * `Ctrl` + `P` - **Parameters** of any callable, if cursor inside constructor brackets
