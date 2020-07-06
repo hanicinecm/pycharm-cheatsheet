@@ -1,5 +1,5 @@
 # pycharm-cheatsheet
-*A simple personal markdown cheatsheet for PyCharm IDE* (Keymap needs to be set to KDE, some of these will not work with Gnome keymap for some reason)
+*A simple personal markdown cheatsheet for PyCharm IDE* (Uses custom keymap based on the KDE keymap template)
 
 ## Actions
 * `Ctrl` + `Shift` + `A` - **Find Action** speed type any action I don't remember shortcut for.
@@ -16,7 +16,7 @@
 * `Ctrl` + `Shift` + `N` - **Navigate by File**, also *Find Action* + `n b f` will get me there. Can search in project, or in all dependencies. 
   The speedtyping syntax allows for `dir/fil`.
 * `Ctrl` + `B` - jumps to the definition of a datastructure the cursor is on. The same as `Ctrl` + click.
-* `Ctrl` + `Home` - **Navigation Bar** summons a pop-up navigation bar to navigate in the project file structure. Supports everything the project window does - 
+* `Alt` + `Home` - **Navigation Bar** summons a pop-up navigation bar to navigate in the project file structure. Supports everything the project window does - 
   can open any file, can create a new file, delete, rename/refactor, run tests, find in path
 
 ## Editor
@@ -35,12 +35,13 @@
 * `Shift` + `F6` - **Refactor**
 * `Ctrl` + `Q` - **Documentation** of the object with cursor on
 * `Ctrl` + `P` - **Parameters** of any callable, if cursor inside constructor brackets
-* `Alt Gr` + `Tab` - **Go to Next Splitter** (this is custom binding)
-* `Ctrl` + `4` - **Close** whatever is open - file in editor, terminal, run window...
+* `Alt` + `Right`/`Left` - **Go to Next/Previous Splitter** (this is a custom binding, replacing the *go to next tab*)
+* `Ctrl` + `4` - **Close** whatever is open - tab in editor, terminal, run window...
 
 ## Running Code
-* `Shift` + `F10` - **Re-runs** the active run configuration
-* `Ctrl` + `Shift` + `F10` - **Runs a temporary configuration** relevant to the current code file under focus
+* `Shift` + `F10` - **Runs** the active run configuration
+* `Alt Gr` + `F10` - **Select configuration and Run** (this is a custom binding, since the original Shift + Alt + F10 was not registering for some reason)
+* `Ctrl` + `Shift` + `F10` - **Runs the context configuration** - relevant to the current code file under focus
   * Run all the tests when focused on tests directory
   * Run all the tests in a file when focused on top of a file
   * Run a single test when focused on it.
