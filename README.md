@@ -18,6 +18,9 @@
 * `Ctrl` + `B` - jumps to the definition of a datastructure the cursor is on. The same as `Ctrl` + click.
 * `Alt` + `Home` - **Navigation Bar** summons a pop-up navigation bar to navigate in the project file structure. Supports everything the project window does - 
   can open any file, can create a new file, delete, rename/refactor, run tests, find in path
+* `Shift` + `Home`/`End` - **Jump to the beginning/end of line**
+* `Ctrl` + `Home`/`End` - **Jump to the beginning/end of file**
+* `Alt` + `Up`/`Down` - **Move up/down (fast)**
 
 ## Editor
 * `Shift` + `Enter` - **Start New Line** adds a new line below the line the cursor is in.
